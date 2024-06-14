@@ -47,14 +47,14 @@ setTimeout(function() {
         if (event.value.payload?.choices?.length > 0) {
             console.log('choices detected');
             window.botpressWebChat.mergeConfig({ 
-                stylesheet: 'https://webchat-styler-css.botpress.app/prod/code/d6785494-e152-4680-9297-df47661401ab/v39687/style.css' 
+                stylesheet: 'https://webchat-styler-css.botpress.app/prod/code/05a7e850-0904-468e-a567-a076cb03300a/v54229/style.css' 
             });
 
         // Check for a dropdown
         } else if (event.value.payload?.type === 'dropdown') {
             console.log('Dropdown message received');
             window.botpressWebChat.mergeConfig({ 
-                stylesheet: 'https://webchat-styler-css.botpress.app/prod/code/d6785494-e152-4680-9297-df47661401ab/v39687/style.css' 
+                stylesheet: 'https://webchat-styler-css.botpress.app/prod/code/05a7e850-0904-468e-a567-a076cb03300a/v54229/style.css' 
             });
 
             // Add any specific handling for dropdown messages here
@@ -63,7 +63,7 @@ setTimeout(function() {
         } else {
             console.log('No choices or dropdown detected');
             window.botpressWebChat.mergeConfig({ 
-                stylesheet: 'https://webchat-styler-css.botpress.app/prod/code/2bfd2d3e-9830-442a-859c-0a69c2642bed/v50560/style.css' 
+                stylesheet: 'https://webchat-styler-css.botpress.app/prod/code/05a7e850-0904-468e-a567-a076cb03300a/v88067/style.css' 
             });
         }
     }
