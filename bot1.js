@@ -18,7 +18,7 @@ window.botpressWebChat.init({
                 'closeOnEscape': false,
                 'showConversationsButton': false,
                 'enableTranscriptDownload': false,
-                'stylesheet':'https://webchat-styler-css.botpress.app/prod/code/d6785494-e152-4680-9297-df47661401ab/v39687/style.css'
+                'stylesheet':'https://webchat-styler-css.botpress.app/prod/code/05a7e850-0904-468e-a567-a076cb03300a/v54229/style.css'
               });
 
         window.addEventListener('beforeunload', function() {
